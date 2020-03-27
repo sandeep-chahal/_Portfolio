@@ -5,11 +5,11 @@ const Contact = props => {
 	return (
 		<div className="contact" id="contact">
 			<h2>Contact</h2>
-			<form>
-				<input type="text" placeholder="Name" />
-				<input type="text" placeholder="Email" />
-				<textarea placeholder="message" />
-				<submit>Shoot!</submit>
+			<form data-netlify="true" action="post">
+				<input type="text" placeholder="Name" name="name" />
+				<input type="text" placeholder="Email" name="email" />
+				<textarea placeholder="message" name="msg" />
+				<button type="submit">Shoot!</button>
 			</form>
 			<div className="social"></div>
 		</div>
