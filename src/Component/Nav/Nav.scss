@@ -1,0 +1,22 @@
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100vw;
+	height: 10rem;
+
+	.menu {
+		display: flex;
+		align-items: center;
+		font-size: 1.8rem;
+		margin-right: 20rem;
+		& > * {
+			margin: 0 8rem;
+			cursor: pointer;
+			transition: all 500ms ease-out;
+			&:hover {
+				transform: translateX(-3px);
+			}
+		}
+	}
+}
