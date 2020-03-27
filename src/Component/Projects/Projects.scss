@@ -1,0 +1,40 @@
+.projects {
+	h2 {
+		color: rgba(51, 51, 51, 0.514);
+		font-size: 3rem;
+		margin-left: 5rem;
+	}
+	.item-container {
+		margin: 5rem 10rem;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+	}
+	.project {
+		display: flex;
+		flex-direction: column;
+		.title {
+			font-size: 2.5rem;
+			margin-top: 1rem;
+			font-weight: bold;
+		}
+		.desc {
+			font-size: 1.5rem;
+			color: rgba(0, 0, 0, 0.7);
+		}
+		a {
+			color: #333;
+			font-size: 1.3rem;
+			margin-top: 0.5rem;
+			display: flex;
+			align-items: center;
+			img {
+				width: 1.5rem;
+				margin-right: 0.5rem;
+			}
+		}
+		img {
+			width: 50rem;
+		}
+	}
+}

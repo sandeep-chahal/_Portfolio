@@ -1,6 +1,6 @@
 .home {
 	width: 100vw;
-	height: 70vh;
+	height: 60vh;
 
 	h1 {
 		display: inline-block;
@@ -9,11 +9,10 @@
 		margin-left: 20rem;
 
 		border-radius: 5px;
-		// color: #ff5959;
 		padding: 0 10px;
-		animation: textflicker 80ms infinite;
+		animation: textflicker 100ms infinite;
 		transition: all 200ms ease-out;
-		background-color: #333;
+		background-color: rgb(71, 71, 71);
 		color: #fff;
 		&:hover {
 			background-color: #fff;
@@ -37,7 +36,7 @@
 
 @keyframes textflicker {
 	from {
-		text-shadow: 2px 0 0 #ff5959, -2px 0 0 #17b978;
+		text-shadow: 3px 0 0 #ff5959, -2px 0 0 #17b978;
 	}
 	to {
 		text-shadow: 3px 0.5px 2px #ff5959, -1px -0.5px 2px #17b978;

@@ -1,6 +1,5 @@
 import React from "react";
 import "./Home.scss";
-import GlitchClip from "react-glitch-effect/core/Clip";
 
 const Home = props => {
 	return (
