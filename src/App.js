@@ -3,6 +3,7 @@ import "./App.scss";
 import Nav from "./Component/Nav/Nav";
 import Home from "./Component/Home/Home";
 import Projects from "./Component/Projects/Projects";
+import Contact from "./Component/Contact/Contact";
 
 class App extends React.Component {
 	render() {
@@ -11,6 +12,7 @@ class App extends React.Component {
 				<Nav />
 				<Home />
 				<Projects />
+				<Contact />
 			</div>
 		);
 	}

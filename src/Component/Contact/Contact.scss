@@ -1,0 +1,31 @@
+.contact {
+	h2 {
+		color: rgba(51, 51, 51, 0.514);
+		font-size: 3rem;
+		margin-left: 5rem;
+	}
+
+	form {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		& > * {
+			margin: 1rem;
+			padding: 0.5rem;
+			width: 35%;
+		}
+		textarea {
+			min-height: 15rem;
+		}
+		submit {
+			width: 8rem;
+			padding: 0.3rem 0.7rem;
+			background-color: #333;
+			color: #fff;
+			text-align: center;
+			cursor: pointer;
+			font-size: 1.4rem;
+		}
+	}
+}
