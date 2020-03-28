@@ -5,11 +5,13 @@ const Contact = props => {
 	return (
 		<div className="contact" id="contact">
 			<h2>Contact</h2>
-			<form data-netlify="true" action="post" method="POST" name="contact">
+			<form action="https://formspree.io/xyypaovk" method="POST" name="contact">
 				<input type="text" placeholder="Name" name="name" />
 				<input type="text" placeholder="Email" name="email" />
 				<textarea placeholder="message" name="msg" />
-				<button type="submit">Shoot!</button>
+				<button type="submit" value="send">
+					Shoot!
+				</button>
 			</form>
 			<div className="social"></div>
 		</div>
